@@ -4,7 +4,8 @@ const questions = [
         options: ['<link>', '<a>', '<href>', '<url>']
     }
 
-     {
+    ,
+    {
         question: 'Which tag is used for interactivity on the web page?',
         options: ['<link>', '<a class="button">', '<dialog>', '<button>']
     }
@@ -30,12 +31,16 @@ function showContent() {
     }
 
     
-    btnOptions[0].addEventListener ('click', () => { 
-        footerQuiz.classList.toggle('hidden');
-})
+  
 
 
 }
+
+  btnOptions[0].addEventListener ('click', () => { 
+            footerQuiz.classList.toggle('hidden');
+        
+})
+
 showContent();
 
 
